@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+:root{
+    --main-color:#ffbd5a;
+}
+body{
+    background-color: #F6F6F6;
+}
+.login-title{
+    color: var(--main-color);
+}
+.login-box{
+    width: 90%;
+   background-color: white;
+   box-shadow: -2px 0px 20px -12px rgba(0, 0, 0, 1);
+   padding: 35px 20px;
+}
+.form-control {
+    border-color: var(--main-color);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-width: 2px;
+}
+.form-control:focus{
+    border-color: var(--main-color) !important;
+    box-shadow: 0 0 0 .25rem rgba(255, 174, 81, 0.621);
+}
+.logbtn{
+ background-color: var(--main-color);
+ border: none;
+ padding: 6px 35px;
+ transition: 0.5s;
+ -webkit-transition: 0.5s;
+ -moz-transition: 0.5s;
+ -ms-transition: 0.5s;
+ -o-transition: 0.5s;
+}
+.logbtn:hover{
+    background-color:rgb(251, 176, 65);
+    border: none;
+}
+
+/* navbar */
+.logo{
+    width: 20%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--main-color);
+}
+.nav-link{
+    color: black;
+    margin-left: 25px;
+}
+.nav-link:hover{
+    color: var(--main-color);
+}
+/* home */
+.home-title{
+    color:black;
+    font-size: 15px;
+}
+/* card style */
+.container{
+    padding: 0px 15px;
+}
+.card{
+    border-color: transparent;
+    transition: 1s ease-out;
+    -webkit-transition: 1s ease-out;
+    -moz-transition: 1s ease-out;
+    -ms-transition: 1s ease-out;
+    -o-transition: 1s ease-out;
+    background-color: white !important;
+}
+.caard:hover{
+    border-color: var(--main-color);
+}
+.card-body{
+    border-bottom-left-radius: 5% !important;
+    border-bottom-right-radius: 5% !important;
+}
+.card-body,.card-title,.card-text{
+    background-color: white !important;
+}
+.price-addbutton{
+    justify-content:space-between;
+}
+.btn-Add{
+   border-color: transparent;
+   background-color: var(--main-color);
+   color: black;
+   padding: 8px 22px;
+   border-radius: 22px;
+   -webkit-border-radius: 22px;
+   -moz-border-radius: 22px;
+   -ms-border-radius: 22px;
+   -o-border-radius: 22px;
+   transition: 1s;
+   -webkit-transition: 1s;
+   -moz-transition: 1s;
+   -ms-transition: 1s;
+   -o-transition: 1s;
+}
+.btn-Add:hover{
+    background-color: rgb(251, 176, 65);
+    transform: translateY(-4px);
+    -webkit-transform: translateY(-4px);
+    -moz-transform: translateY(-4px);
+    -ms-transform: translateY(-4px);
+    -o-transform: translateY(-4px);
+}
+/* Click animation */
+.btn-Add:active {
+    transform: scale(0.95);
+}
+.card-title{
+    font-weight: lighter;
+}
+.card-text{
+    font-weight: 900;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.price{
+    font-size: 20px;
+    color: var(--main-color);
+}
+/* card in cart */
+.item-img img{
+  width: 20%;
+}
+.item-img{
+    align-items: center;
+}
+.item-number{
+    align-items: center;
+    justify-content: space-around;
+}
+.item-info{
+    align-items: center;
+    justify-content: space-between;
+}
+.item-text{
+    margin-left: 17px;
+}
+.item-number i{
+ background-color: var(--main-color);
+ color: black;
+ border-radius: 50%;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ -ms-border-radius: 50%;
+ -o-border-radius: 50%;
+ padding: 10px;
+ margin: 10px;
+ cursor: pointer;
+}
+.removebtn{
+    margin: 5px;
+}
+.total-price{
+    justify-content: center;
+    align-items: center;
+}
+.totalnum{
+    border: 2px solid var(--main-color);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    padding: 6px 20px;
+}
+/* footer */
+footer{
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 35px 47px;
+    color: white;
+    margin-top: 10%;
+}
+.icons a i {
+    color: white;
+    margin: 8px;
+    font-size: 17px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.icons a i:hover{
+    color: black;
+}
